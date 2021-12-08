@@ -1,5 +1,6 @@
 name: JAVA CI
 on: push
+runs-on: self-hosted
 env:
   docker_username: ${{ secrets.DOCKER_USERNAME }}
   docker_password: ${{ secrets.DOCKER_PASSWORD }}
